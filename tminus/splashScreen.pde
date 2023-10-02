@@ -1,1 +1,5 @@
-void splashScreen() {background(0);}
+int appWidth, appHeight;
+void display() {
+  appWidth = width;
+  appHeight = height;
+}
